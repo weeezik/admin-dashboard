@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 *
 *::after
 *::before {
@@ -6,10 +16,12 @@
 
 :root {
   --main-color: #2D5D7B;
+  /* --main-font-family */
 }
 
 html, body {
   margin: 0;
+  font-family: 'Roboto', 'Courier New', Courier, monospace;
 }
 
 .container {
@@ -23,7 +35,6 @@ html, body {
 .sidebar {
   grid-row: 1 / 3;
   grid-column: 1 / 2;
-  /* border: 1px solid blue; */
   display: grid;
   grid-template-rows: 1fr 1fr;
   background-color: var(--main-color);
@@ -79,6 +90,8 @@ html, body {
 }
 
 button {
+  font-family: 'Roboto', 'Courier New', Courier, monospace;
+  font-weight: bold;
   color: white;
   background-color: var(--main-color);
   appearance: none;
