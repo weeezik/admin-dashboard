@@ -75,6 +75,9 @@ html, body {
   align-content: center;
   align-items: center;
   justify-content: flex-start;
+  gap: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 img {
@@ -84,7 +87,7 @@ img {
 input[type="search"] {
   height: 1.5rem;
   background-color: lightgrey;
-  width: 20rem;
+  width: 30rem;
   border: 1px solid lightgrey;
   border-radius: 20px;
 }
