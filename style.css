@@ -69,7 +69,24 @@ html, body {
 }
 
 .hsearch {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
 
+img {
+  height: 1.5rem;
+}
+
+input[type="search"] {
+  height: 1.5rem;
+  background-color: lightgrey;
+  width: 20rem;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
 }
 
 .hprofile {
