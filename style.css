@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .roboto-medium {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+font-family: "Roboto", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100;
 }
 
 *
@@ -16,7 +16,6 @@
 
 :root {
   --main-color: #2D5D7B;
-  /* --main-font-family */
 }
 
 html, body {
@@ -127,23 +126,9 @@ input[type="search"] {
   align-self: center;
 }
 
-/* #hi {
-  grid-row: 1;
-  grid-column: 2 / 3;
-  font-size: 75%;
-  align-self: self-end;
-}
-#hiname {
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
-  align-self: self-start;
-  font-size: 1.5rem;
-} */
-
 div[id^="hi"] {
   font-weight: bold;
 }
-
 
 .hcrud {
   display: flex;
