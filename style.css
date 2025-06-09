@@ -47,7 +47,15 @@ html, body {
 
 .dashheader {
   grid-row: 1;
+  display: flex;
+  color: white;
 }
+
+#dashicon {
+  height: 20px;
+  color: white;
+}
+
 
 .dashoptions {
   grid-row: 2 / 3;
