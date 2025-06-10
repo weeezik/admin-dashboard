@@ -312,6 +312,8 @@ button:hover {
   flex-direction: column;
   align-content: center;
   justify-content: space-around;
+  border-radius: 5px;
+
 }
 
 .trend {
@@ -339,5 +341,5 @@ button:hover {
 p {
   font-size: 0.6rem;
   color: grey;
-  align-self: self-start;
+  align-self: self-end;
 }
