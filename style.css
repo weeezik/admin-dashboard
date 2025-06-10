@@ -225,6 +225,7 @@ button:hover {
 .cardtitle {
   grid-row: 1 / 2;
   grid-column: 1 / 3;
+  font-size: 1.2rem;
 }
 
 .card {
@@ -267,6 +268,7 @@ button:hover {
 .newstitle {
   grid-row: 1 / 2;
   align-self: self-end;
+  font-size: 1.2rem;
 }
 
 .news {
@@ -277,6 +279,10 @@ button:hover {
   align-items: flex-start;
   justify-content: center;
 }
+
+/* .allnews {
+  margin-bottom: 0px;
+} */
 
 .newsheader {
   font-weight: 600;
@@ -296,9 +302,15 @@ button:hover {
 
 .trendtitle {
   grid-row: 1 / 2;
+  font-size: 1.2rem;
 }
 
 .trend {
-  border: 3px solid blue;
   border-radius: 20px;
+  background-color: white;
+}
+
+.pfp {
+  height: 3rem;
+  border-radius: 50px;
 }
