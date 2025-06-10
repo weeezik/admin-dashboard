@@ -211,6 +211,7 @@ button:hover {
   display: grid;
   grid-template-columns: 4fr 1fr;
   grid-template-rows: 1fr 1fr;
+  background-color: lightgrey;
 }
 
 .projects {
@@ -230,6 +231,7 @@ button:hover {
 .card {
   border: 3px solid red;
   border-radius: 20px;
+  background-color: white;
 }
 
 /* Announcments and Trending */
