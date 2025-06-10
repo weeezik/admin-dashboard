@@ -253,6 +253,7 @@ button:hover {
   justify-self: right;
   display: flex;
   gap: 2rem;
+  align-self: center;
 }
 
 /* Announcments and Trending */
