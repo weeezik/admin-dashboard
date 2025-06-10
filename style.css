@@ -66,11 +66,16 @@ html, body {
   grid-row: 2 / 3;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .sidebariconset {
   display: flex;
+  align-items: center;
+}
+
+.icontext {
+  color: white;
 }
 
 
