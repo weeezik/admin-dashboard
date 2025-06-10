@@ -234,7 +234,8 @@ button:hover {
   grid-template-rows: 1fr 2fr 1fr;
   padding: 20px;
   border-left: 10px solid #C2AFF0;
-  border-top-left-radius: 50px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .cardtitle {
   align-self: self-end;
