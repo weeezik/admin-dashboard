@@ -24,9 +24,9 @@ html, body {
 }
 
 .container {
-  height: clamp(500px, 100vh, 700px);
+  height: clamp(500px, 100vh, 2000px);
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 4.5fr;
   grid-template-rows: 1fr 4fr;
 }
 
@@ -58,7 +58,7 @@ html, body {
 }
 
 #dashicon {
-  height: 2rem;
+  height: 2.5rem;
   justify-self: right;
   align-self: center;
 }
@@ -68,12 +68,11 @@ html, body {
   grid-row: 2 / 3;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 20px;
   margin-left: 32px;
-}
-
-.sidebaricon {
-  color: white;
+  margin-top: 12px;
+  margin-bottom: 32px;
 }
 
 .sidebariconset {
@@ -91,6 +90,18 @@ html, body {
 /* Dashboard Bottom */
 .dashbottom {
   grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-left: 32px;
+  margin-top: 24px;
+}
+
+.bottomiconset {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 /* Header */
