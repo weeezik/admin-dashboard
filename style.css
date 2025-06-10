@@ -47,18 +47,23 @@ html, body {
 
 .dashheader {
   grid-row: 1;
-  display: flex;
   color: white;
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-self: center;
+  column-gap: 10px;
 }
 
 #dashicon {
-  height: 20px;
-  color: white;
+  height: 2rem;
+  justify-self: right;
+  align-self: center;
 }
-
 
 .dashoptions {
   grid-row: 2 / 3;
+  display: grid;
 }
 
 .dashbottom {
