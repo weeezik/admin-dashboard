@@ -207,7 +207,6 @@ button:hover {
 .main-content {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
-  border: 1px solid brown;
   display: grid;
   grid-template-columns: 4fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -229,9 +228,30 @@ button:hover {
 }
 
 .card {
-  border: 3px solid red;
   border-radius: 20px;
   background-color: white;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  padding: 20px;
+  border-left: 10px solid #C2AFF0;
+  border-top-left-radius: 50px;
+}
+.cardtitle {
+  align-self: self-end;
+}
+
+.cardheader {
+  font-weight: 600;
+  align-self: self-end;
+}
+.cardbody {
+  color: grey;
+}
+
+.cardicons {
+  justify-self: right;
+  display: flex;
+  gap: 2rem;
 }
 
 /* Announcments and Trending */
