@@ -280,10 +280,6 @@ button:hover {
   justify-content: center;
 }
 
-/* .allnews {
-  margin-bottom: 0px;
-} */
-
 .newsheader {
   font-weight: 600;
   font-size: .8rem;
@@ -313,16 +309,13 @@ button:hover {
   align-content: center;
   justify-content: space-around;
   border-radius: 5px;
-
 }
 
 .trend {
   border-radius: 20px;
-  /* background-color: white; */
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat(2, 1.5rem);
-  
 }
 
 .pfp {
