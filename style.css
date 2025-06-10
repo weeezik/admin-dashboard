@@ -256,21 +256,41 @@ button:hover {
   align-self: center;
 }
 
-/* Announcments and Trending */
+/* Announcments */
 .announcements {
   display: grid;
   grid-template-rows: 30px repeat(3, 1fr);
+  margin: 10px
 }
 
 .newstitle {
   grid-row: 1 / 2;
+  align-self: self-end;
+  /* margin-bottom: 20px; */
 }
 
 .news {
-  border: 3px solid green;
-  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  padding: 10px;
+}
+.announcement {
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid grey;
 }
 
+.newsheader {
+  font-weight: 600;
+  font-size: .8rem;
+}
+
+.newsbody {
+  font-size: .7rem;
+  color: grey;
+}
+
+/* Trending */
 .trending {
   display: grid;
   grid-template-rows: 30px repeat(4, 1fr);
