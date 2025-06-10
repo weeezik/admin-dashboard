@@ -39,6 +39,7 @@ html, body {
   background-color: var(--main-color);
 }
 
+/* Dashboard Top */
 .dashtop {
   grid-row: 1 / 2;
   display: grid;
@@ -62,24 +63,32 @@ html, body {
   align-self: center;
 }
 
+/* Dashboard Middle */
 .dashoptions {
   grid-row: 2 / 3;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 32px;
+}
+
+.sidebaricon {
+  color: white;
 }
 
 .sidebariconset {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .icontext {
   color: white;
+  font-weight: bold;
 }
 
 
-
+/* Dashboard Bottom */
 .dashbottom {
   grid-row: 2 / 3;
 }
