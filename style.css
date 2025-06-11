@@ -107,11 +107,13 @@ html, body {
 
 /* Header */
 .header {
+  box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.1);
   grid-row: 1;
   grid-column: 2 / 3;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 3fr 2fr;
+  
 }
 
 .hsearch {
@@ -316,7 +318,7 @@ button:hover {
   flex-direction: column;
   align-content: center;
   justify-content: space-evenly;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .trend {
