@@ -71,8 +71,6 @@ html, body {
   justify-content: flex-start;
   gap: 20px;
   margin-left: 32px;
-  margin-top: 12px;
-  margin-bottom: 32px;
 }
 
 .sidebariconset {
@@ -84,6 +82,7 @@ html, body {
 .icontext {
   color: white;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 
