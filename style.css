@@ -15,7 +15,9 @@ font-variation-settings:
 }
 
 :root {
-  --main-color: #2D5D7B;
+  --main-color: #5C8001;
+  --secondary-color: #250180;
+  --off-white: #eef0f1;
 }
 
 html, body {
@@ -110,7 +112,6 @@ html, body {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 3fr 2fr;
-  /* box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.1);   */
 }
 
 .hsearch {
@@ -130,9 +131,9 @@ img {
 
 input[type="search"] {
   height: 1.5rem;
-  background-color: lightgrey;
+  background-color: var(--off-white);
   width: 30rem;
-  border: 1px solid lightgrey;
+  border: 1px solid var(--off-white);
   border-radius: 20px;
 }
 
@@ -195,7 +196,7 @@ button {
   border: 1px solid var(--main-color);
   border-radius: 50px;
   width: 6rem;
-  height: 2rem;
+  height: 2.5rem;
 }
 
 button:hover {
@@ -210,7 +211,7 @@ button:hover {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr 1fr;
-  background-color: lightgrey;
+  background-color: var(--off-white);
 }
 
 .projects {
@@ -234,7 +235,7 @@ button:hover {
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
   padding: 20px;
-  border-left: 10px solid #7B4B2D;
+  border-left: 10px solid var(--secondary-color);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -301,6 +302,7 @@ button:hover {
   grid-template-rows: 30px;
   margin: 10px;
   margin-right: 20px;
+  row-gap: 20px;
 }
 
 .trendtitle {
@@ -317,24 +319,12 @@ button:hover {
   border-radius: 5px;
 }
 
-/* Alternative .trends rules that might work well to get the trend items closer */
-/* .trends {
-    display: flex;
-    background-color: white;
-    flex-direction: column;
-    align-content: center;
-    justify-content: flex-start;
-    border-radius: 5px;
-    padding: 20px;
-    gap: 20px;
-} */
-
 .trend {
   border-radius: 20px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat(2, 1.5rem);
-  row-gap: 5px;
+  row-gap: 10px;
 }
 
 .pfp {
